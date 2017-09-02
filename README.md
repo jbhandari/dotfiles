@@ -34,7 +34,8 @@ This will create symlinks for config files in your home directory. The
 `-x` options, which exclude the `README.md` and `Brewfile` files, are
 needed during installation but can be skipped after the first time.
 
-Rename `/etc/zshenv` to `/etc/zprofile`.
+
+Try to rename(as of now I do not think its entirely necessary) `/etc/zshenv` to `/etc/zprofile`.
 
     sudo mv /etc/zshenv /etc/zprofile
 
