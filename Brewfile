@@ -25,9 +25,6 @@ brew 'rbenv'
 # So `ruby install` works
 brew 'ruby-build'
 
-# Never run `rbenv rehash` again
-brew 'rbenv-gem-rehash'
-
 # install rcm for managing .dotfiles
 tap 'thoughtbot/formulae'
 brew 'rcm'
