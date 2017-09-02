@@ -1,36 +1,36 @@
 # https://github.com/mxcl/homebrew/blob/f949b212b3a66fc728104d5a111107911dff5b0f/Library/Contributions/cmd/brew-bundle.rb
 
 # Update Homebrew first
-update
+'update'
 
-install git
-install vim
-install zsh
+brew 'git'
+brew 'vim'
+brew 'zsh'
 
 # a better ack/grep
-install the_silver_searcher
+brew 'the_silver_searcher'
 
 # quickly jump between directories
-install fasd
+brew 'fasd'
 
 # a terminal multiplexer
-install tmux
+brew 'tmux'
 
 # so copy/paste works in tmux
-install reattach-to-user-namespace
+brew 'reattach-to-user-namespace'
 
 # Ruby version manager
-install rbenv
+brew 'rbenv'
 
 # So `ruby install` works
-install ruby-build
+brew 'ruby-build'
 
 # Never run `rbenv rehash` again
-install rbenv-gem-rehash
+brew 'rbenv-gem-rehash'
 
 # install rcm for managing .dotfiles
-tap thoughtbot/formulae
-install rcm
+tap 'thoughtbot/formulae'
+brew 'rcm'
 
 # Fast GitHub client
-install gh
+brew 'gh'
