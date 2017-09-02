@@ -2,6 +2,8 @@
 
 ## Install
 
+Using [jsteiner's old dotfiles](https://github.com/jsteiner/dotfiles-old), for Rails development. These dotfiles substantially increased my efficiency. Major props to [jsteiner](https://github.com/jsteiner) and [thoughtbot](https://github.com/thoughtbot).
+
 Install and use [iTerm2].
 
 Set `zsh` as your login shell:
@@ -10,7 +12,7 @@ Set `zsh` as your login shell:
 
 Change to your home directory and clone this repo, then change to the new dotfiles directory.
 
-    cd && git clone https://github.com/jsteiner/dotfiles.git
+    cd && git clone https://github.com/jbhandari/dotfiles.git
     cd dotfiles
 
 Download submodules
