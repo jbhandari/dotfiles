@@ -14,7 +14,7 @@ _git_prompt_info() {
 }
 
 _git_status() {
-  git_status=$(cat "/tmp/git-status-$$")
+  git_status=$(git status)
   if [ -n "$(echo $git_status | grep "Changes not staged")" ]; then
     echo "changed"
   elif [ -n "$(echo $git_status | grep "Changes to be committed")" ]; then
