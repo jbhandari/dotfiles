@@ -3,7 +3,7 @@
 # Update Homebrew first
 'update'
 
-brew 'git'
+brew 'git' --without-completions
 brew 'vim'
 brew 'zsh'
 
@@ -30,4 +30,4 @@ tap 'thoughtbot/formulae'
 brew 'rcm'
 
 # Fast GitHub client
-brew 'gh'
+brew 'hub'
