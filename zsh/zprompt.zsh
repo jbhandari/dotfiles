@@ -29,13 +29,13 @@ _git_status() {
 _git_prompt_color() {
   if [ -n "$1" ]; then
     current_git_status=$(_git_status)
-    if [ "changed" == $current_git_status ]; then
+    if [ "$current_git_status" = "changed" ]; then
       echo "$(_red $1)"
-    elif [ "pending" == $current_git_status ]; then
+    elif [ "$current_git_status" = "pending" ]; then
       echo "$(_yellow $1)"
-    elif [ "unchanged" == $current_git_status ]; then
+    elif [ "$current_git_status" = "unchanged" ]; then
       echo "$(_green $1)"
-    elif [ "untracked" == $current_git_status ]; then
+    elif [ "$current_git_status" = "untracked" ]; then
       echo "$(_cyan $1)"
     fi
   else
@@ -59,7 +59,7 @@ _blue()                   { echo "$(_color "$1" blue)" }
 
 _full_path()              { echo "$(_blue "%~")" }
 _working_directory()      { echo "$(_blue "%c")" }
-_colored_git_branch()     { echo "$(_git_prompt_color "$(_git_prompt_info)")" }
+_colored_git_branch()     { echo "$(_git_prompt_color $(_git_prompt_info))" }
 
 _display_current_vim_mode() {
   if [[ $VIMODE == 'vicmd' ]]; then
@@ -82,3 +82,4 @@ function precmd {
 }
 
 PROMPT='$(_working_directory)$(_separate $(_colored_git_branch)) $(_display_current_vim_mode) '
+
