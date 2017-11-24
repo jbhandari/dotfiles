@@ -57,6 +57,15 @@ alias c="rails console"
 # Open ports
 alias open_ports="lsof -i -P | grep -i 'listen'"
 
+# gem_home
+alias gm='gem_home .'
+
 # tmux
 alias tat='tmux attach -t'
 alias tns='tmux new -s'
+
+#appium
+alias cr='clear;rake'
+alias devium='cd ; cd dev/devium ; chruby 2.3.3'
+alias appium_servers='ps -A | grep appium'
+alias list='echo ////// IOS DEVICES //////;echo -e;instruments -s devices;echo -e;echo ////// ANDROID DEVICES //////;echo -e;adb devices -l'

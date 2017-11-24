@@ -34,3 +34,5 @@ source ~/.zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+source /usr/local/opt/chruby/share/chruby/auto.sh
+source /usr/local/share/gem_home/gem_home.sh
