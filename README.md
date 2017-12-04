@@ -26,6 +26,10 @@ Run `brew bundle` to install all packages in the `Brewfile`
 
     brew bundle
 
+Install `git`
+
+    brew install git --without-completions
+
 Install:
 
     rcup -d ~/dotfiles -x README.md -x Brewfile -x osx-settings
