@@ -38,11 +38,6 @@ This will create symlinks for config files in your home directory. The
 `-x` options, which exclude the `README.md` and `Brewfile` files, are
 needed during installation but can be skipped after the first time.
 
-
-Try to rename(as of now I do not think its entirely necessary) `/etc/zshenv` to `/etc/zprofile`.
-
-    sudo mv /etc/zshenv /etc/zprofile
-
 By default, OS X's zsh config resets `PATH` for every zsh instance, which can
 cause problems with Vim. More info [here].
 
@@ -51,7 +46,7 @@ Set up vundle:
     git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     vim +PluginInstall +qa
 
-Remap `Caps Lock` to `Control`. Thank me later.
+If you are going to use Vim as your main editor then emap `Caps Lock` to `Control`. Thank me later.
 
     System Preferences -> Keyboard -> Keyboard Tab -> Modifier Keys
 
@@ -74,6 +69,8 @@ your information:
     [github]
         user = jsteiner
 
+
+Restart your shell, and make sure you are in your dotfiles directory ( `cd dotfiles` )
 
 If you like what you see in osx-settings, run `./osx-settings`.
 
