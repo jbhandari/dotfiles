@@ -59,6 +59,8 @@ Configure iTerm:
   * Set `Report Terminal Type` to xterm-256color
 * Under Profiles > Text
   * Disable `Draw bold text in bright colors`
+* Profiles > General
+  * Under Working Directory select `Reuse previous sessions directory`
 
 Configure git. Create a `~/.gitconfig.local` file and replace the following with
 your information:
