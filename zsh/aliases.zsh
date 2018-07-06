@@ -64,8 +64,4 @@ alias gm='gem_home .'
 alias tat='tmux attach -t'
 alias tns='tmux new -s'
 
-#appium
-alias cr='clear;rake'
-alias devium='cd ; cd dev/devium ; chruby 2.3.3'
-alias appium_servers='ps -A | grep appium'
-alias list='echo ////// IOS DEVICES //////;echo -e;instruments -s devices;echo -e;echo ////// ANDROID DEVICES //////;echo -e;adb devices -l'
+alias devices='echo ////// IOS DEVICES //////;echo -e;instruments -s devices;echo -e;echo ////// ANDROID DEVICES //////;echo -e;adb devices -l'
