@@ -1,5 +1,13 @@
 # dotfiles
 
+## Note
+
+These dotfiles use zsh instead of bash as your shell. If you are coming from a bash background this is a short list of zsh equivalents:
+
+- `.bashrc` = `.zshrc`
+- `.bashenv` = `.zshenv`
+- `.bash_profile` = `.zprofile`
+
 ## Install
 
 Using [jsteiner's old dotfiles](https://github.com/jsteiner/dotfiles-old), for Rails development. These dotfiles substantially increased my efficiency. Major props to [jsteiner](https://github.com/jsteiner) and [thoughtbot](https://github.com/thoughtbot).
