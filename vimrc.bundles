@@ -37,7 +37,6 @@ Plugin 'tpope/vim-markdown'
 Plugin 'jtratner/vim-flavored-markdown'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'nono/vim-handlebars'
-Plugin 'gmarik/Vundle.vim'
 Plugin 'slim-template/vim-slim.git'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
